@@ -1,0 +1,33 @@
+{
+  "name": "ng2-daterangepicker",
+  "version": "3.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbonicelli-oa/ng2-daterangepicker"
+  },
+  "bugs": {
+    "url": "https://github.com/dbonicelli-oa/ng2-daterangepicker/issues"
+  },
+  "homepage": "https://github.com/dbonicelli-oa/ng2-daterangepicker#readme",
+  "license": "MIT",
+  "dependencies": {
+    "daterangepicker": "^3.0.5",
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "11.2.14",
+    "@angular/core": "11.2.14",
+    "jquery": "^3.5.0",
+    "@types/jquery": "^3.3.32"
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "bundles/ng2-daterangepicker.umd.js",
+  "module": "fesm2015/ng2-daterangepicker.js",
+  "es2015": "fesm2015/ng2-daterangepicker.js",
+  "esm2015": "esm2015/ng2-daterangepicker.js",
+  "fesm2015": "fesm2015/ng2-daterangepicker.js",
+  "typings": "ng2-daterangepicker.d.ts",
+  "metadata": "ng2-daterangepicker.metadata.json"
+}
